@@ -50,11 +50,43 @@ document.write(`City: ${City} <br>`)
 let Replace=City.replace('Hyderabad','Islamabad')
 document.write(`After Replacement: ${Replace}`) */
 
+// Q8
 
+/* let message = `Ali and Sami are best friends .They play cricket and
+football together.`;
+document.write(`${message} <br>`);
+let Replace = message.replaceAll("and", "&");
+document.write(Replace); */
 
+// Q9
 
+/* str="472"
+document.write(`Value: ${str} <br>`)
+document.write('Type:',typeof str+'<br>')
+document.write(`Value: ${str} <br>`)
+var str=Number()
+document.write('Type:',typeof str+'<br>') */
 
+// Q10
 
+/* let userInput=prompt('enter your Dry Fruits')
+document.write(`User input: ${userInput} <br>`)
+let convert=userInput.toUpperCase()
+document.write(`Upper Case ${convert}`) */
+
+// Q11
+
+ /* let userInput=prompt('enter your letter')
+ document.write(`User input: ${userInput} <br>`)
+let convert=userInput.replace(/\b\w/g, a=> a.toUpperCase())
+document.write(convert) */
+
+// Q12
+
+// let str=35.36
+// document.write(`Number: ${str} <br>`)
+// let convert=str.
+// document.write('Result: '+str.join(''))
 
 
 
